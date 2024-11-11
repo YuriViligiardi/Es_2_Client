@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Menu {
 
-    public String ottieniStringa(){
+    public String ottieniStringa() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Inserisci una stringa: ");
         String input = scanner.nextLine();
@@ -13,8 +13,7 @@ public class Menu {
         return input;
     }
 
-
-    public int ottieniscelta(){
+    public int ottieniscelta() {
         int scelta;
         Scanner scanner = new Scanner(System.in);
         do {
@@ -23,12 +22,11 @@ public class Menu {
             System.out.println("2) Trasformare stringa in minuscolo");
             System.out.println("3) Ribaltare i caratteri della stringa");
             System.out.println("4) Contare il numero di caratteri");
-            System.out.println("0) Esci");
             scelta = scanner.nextInt();
             System.out.println("Hai scelto L'operazione " + scelta);
             System.out.println("----------------------------------------");
-        } while (!(scelta>= 0 || scelta<=4));
-        
+        } while (!(scelta >= 1 || scelta <= 4));
+
         return scelta;
     }
 }
