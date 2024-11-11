@@ -14,4 +14,5 @@ public class Main {
         MyThread t = new MyThread(s, in, scelta);
         t.start();
     }
+    
 }

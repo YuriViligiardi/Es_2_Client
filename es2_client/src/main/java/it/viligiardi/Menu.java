@@ -29,5 +29,4 @@ public class Menu {
 
         return scelta;
     }
-    
 }

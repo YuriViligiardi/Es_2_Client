@@ -36,4 +36,5 @@ public class MyThread extends Thread {
             System.out.println("Errore, comunicazione fallita");
         }
     }
+    
 }
